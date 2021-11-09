@@ -1,8 +1,8 @@
 {
   "name": "cleanfolio",
+  "homepage": "https://Atu77l.github.io/Portfolio-Atul",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Atu77l.github.io/Portfolio-Atul",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
@@ -23,8 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint .",
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
