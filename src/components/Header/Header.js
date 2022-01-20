@@ -15,7 +15,7 @@ const Header = () => {
         ) : (
           title
         )}
-      </h3>n
+      </h3>
       <Navbar />
     </header>
   )

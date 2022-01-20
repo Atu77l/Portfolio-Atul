@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://Atu77l.github.io/cleanfolio',
+  title: '',
 }
 
 const about = {
@@ -23,15 +23,15 @@ const projects = [
   {
     name: 'Weather Report',
     description:
-      '',
+      'These App will descibe ',
     stack: ['Api', 'Handlebars', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
   {
-    name: 'instagram App',
+    name: 'Portfolio',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'These App will describe about myself whats my skill and also about my project',
     stack: ['Express Js', 'Mongo DB', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',

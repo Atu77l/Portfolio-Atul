@@ -15,14 +15,15 @@ const App = () => {
   return (
     <div id='top' className={`${themeName} app`}>
       <Header />
-
+      {/* <div className="game">
+        <game/>
+      </div> */}
       <main>
         <About />
         <Projects />
         <Skills />
         <Contact />
       </main>
-
       <ScrollToTop />
       <Footer />
     </div>
