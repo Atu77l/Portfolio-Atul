@@ -21,10 +21,10 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Weather Report',
+    name: 'All In One !!! News',
     description:
-      'These App will descibe ',
-    stack: ['Api', 'Handlebars', 'React'],
+      'These App will show you news as per your wishes channel and also your wishes topic.Its was very interesting when I made.I have fetch news api and using React Js Framework. ',
+    stack: ['Api', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -39,7 +39,7 @@ const projects = [
   {
     name: 'Quiz App',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Created a web based application that allows organizer to organising an online quiz.App uses React Js and API.App also provide the score gain by participants.',
     stack: ['Express Js', 'Handlebars', 'HTML'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
