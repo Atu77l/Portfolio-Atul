@@ -21,10 +21,10 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'All In One !!! News',
+    name: 'Firebase-Auth',
     description:
-      'These App will show you news as per your wishes channel and also your wishes topic.Its was very interesting when I made.I have fetch news api and using React Js Framework. ',
-    stack: ['Api', 'React'],
+      'These app will give acces of main webpage after proper authentication.In homepage you cam play games and make todolist and do calculation. ',
+    stack: ['Firebase', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
   },
@@ -52,15 +52,19 @@ const skills = [
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'C++',
+  'C',
   'React',
-  'Redux',
-  'SASS',
-  'Data Structure',
+  'React-Native',
+   'Node Js',
+  'Data Structure and Algorithm',
+  'Computer Network',
+  'Operating System',
   'Git',
   'Cloud Computing',
-  'Algorithm',
-  'Node Js',
+  'DBMS',
+  'SQL',
+  'Competitive Coding',
 ]
 
 const contact = {
