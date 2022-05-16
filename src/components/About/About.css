@@ -1,15 +1,13 @@
 .about {
   flex-direction: column;
   margin-top: 3em;
+  margin-top: 200px;
 }
 
 .about__name {
   color: var(--clr-primary);
 }
 
-.about__role {
-  margin-top: 1.2em;
-}
 
 .about__desc {
   font-size: 1rem;
@@ -32,8 +30,31 @@
 @media (max-width: 600px) {
   .app .about {
     align-items: flex-start;
-    margin-top: 2em;
+    margin-top: 200px;
   }
+}
+@media (max-width: 600px) {
+  .about1{
+    display: flex;
+    flex-direction: column;
+  }
+  .image{
+    display: none;
+  }
+  .about{
+    margin-left: 20px;
+  }
+  .image1{
+    height:100px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 600px) {
+   .image1{
+     display:none;
+   }
 }
 .image{
   border-radius: 50%;
@@ -43,3 +64,8 @@
   display: flex;
   flex-direction: row;
 }
+.about__role{
+  display: flex;
+  flex-direction: row;
+}
+

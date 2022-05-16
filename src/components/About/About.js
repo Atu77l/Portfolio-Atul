@@ -1,11 +1,11 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio';
-import img from '../../portfolio-img.png';
+import img from '../../portfolio-atul.png';
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, description, resume, social } = about
 
   return (
     
@@ -16,8 +16,12 @@ const About = () => {
           Hi, I am <span className='about__name'>{name}.</span>
         </h1>
       )}
-
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      
+      <h2 className='about__role'>
+      <h2 className="role">A Full Stack Developer.</h2>
+      <div><img src={img} alt="ph1" className="image1"/></div>
+      </h2>
+      
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
@@ -55,7 +59,7 @@ const About = () => {
       </div>
       
     </div>
-    <div>
+    <div className='about center'>
     <img src={img} alt="ph1" className="image"/>
     </div>
     </div>
