@@ -13,11 +13,11 @@ function Experience() {
           <h6>9 May 2022 - Present</h6>    
       </div>
       <div className="qualify">
-          <h3>Pustakey</h3>
-          <h4>Web Developer</h4>
-          <h5>I was working in a team to make a website of pustakey.com.</h5>
-          <h5>These website used react js and firebase.</h5>
-          <h6>November 2021 - February 2022</h6>  
+          <h3>Imocha</h3>
+          <h4>Problem Setter Intern</h4>
+          <h5>I was working in a team to set a coding problem.</h5>
+          <h5>I used to set problem related to any topic of Data Structure an Algorithm.</h5>
+          <h6>August 2022 - Present</h6>  
       </div>
     </div>
   )

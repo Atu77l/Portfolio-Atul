@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Atu77l.github.io/Portfolio-Atul1",
+  "homepage": "https://Atu77l.github.io",
   "name": "cleanfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
+    "react-router-dom": "^6.4.2",
     "react-scripts": "4.0.3",
     "uniqid": "^5.4.0",
     "web-vitals": "^2.1.0"
