@@ -15,7 +15,7 @@ const ScrollToTop = () => {
 
   return isVisible ? (
     <div className='scroll-top'>
-      <a href='#top'>
+      <a to='#top'>
         <ArrowUpwardIcon fontSize='large' />
       </a>
     </div>

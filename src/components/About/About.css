@@ -11,7 +11,6 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
 }
 
 .about__desc,
@@ -59,6 +58,8 @@
 .image{
   border-radius: 50%;
   margin-left: 30px;
+  height: 400px;
+  width: 400px;
 }
 .about1{
   display: flex;
@@ -69,3 +70,8 @@
   flex-direction: row;
 }
 
+.role{
+  color:orange;
+  font-size: 32px;
+  font-weight: 600;
+}

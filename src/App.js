@@ -11,6 +11,7 @@ import Qualify from './components/Qualification/Qualify';
 import Achieve from './components/Achievement/Achievement';
 import './App.css'
 import Experience from './components/Experience/Experience'
+import Animation from './components/Animation/Animation'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -25,6 +26,7 @@ const App = () => {
       <Header />
       <main>
         <About />
+        {/* <Animation/> */}
         <Qualify/>
         <Projects />
         <Experience/>

@@ -6,6 +6,8 @@
         box-shadow: var(--shadow);
         transition: transform 0.2s linear;
         margin: 5px;
+        border-radius: 20px;
+        border-color: orange;
 }
 h2{
     margin-top: 40px;

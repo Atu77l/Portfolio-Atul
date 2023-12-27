@@ -22,13 +22,13 @@ const Navbar = () => {
          <li className='nav__list-item'><a
               href='#About'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >About</a>
          </li>
          <li className='nav__list-item'><a
               href='#qualify'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >Qualification</a>
          </li>
         {projects.length ? (
@@ -36,7 +36,7 @@ const Navbar = () => {
             <a
               href='#projects'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >
               Projects
             </a>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <a
               href='#skills'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >
               Skills
             </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
         <li className='nav__list-item'><a
               href='#achieve'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >Achievement</a>
          </li>
         {contact.email ? (
@@ -65,7 +65,7 @@ const Navbar = () => {
             <a
               href='#contact'
               onClick={toggleNavList}
-              className='link link--nav'
+              className='link link--nav font-semibold'
             >
               Contact
             </a>
